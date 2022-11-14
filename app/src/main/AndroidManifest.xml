@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_TeachMeSkills">
         <activity
-            android:name=".MainActivity3"
+            android:name="Kotlin.MainActivity3"
             android:exported="false">
 
 
@@ -20,14 +20,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity2"
+            android:name="Kotlin.MainActivity2"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="Kotlin.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.example.android_teachmeskills.OPEN_ACTIV1"/>

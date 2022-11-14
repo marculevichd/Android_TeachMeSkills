@@ -1,10 +1,10 @@
-package com.example.android_teachmeskills
+package Kotlin
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
+import com.example.android_teachmeskills.R
 
 // цикл жизни приложения 6 методов onCreate  onStart onResume onPause onStop onDestroy
 class MainActivity : AppCompatActivity() {

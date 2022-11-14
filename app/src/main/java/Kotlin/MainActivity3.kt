@@ -1,9 +1,10 @@
-package com.example.android_teachmeskills
+package Kotlin
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.android_teachmeskills.R
 
 class MainActivity3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
