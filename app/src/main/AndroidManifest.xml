@@ -12,6 +12,9 @@
         <activity
             android:name=".MainActivity3"
             android:exported="false">
+
+
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -26,6 +29,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.android_teachmeskills.OPEN_ACTIV1"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
